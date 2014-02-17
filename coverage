@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#
+
+run () { echo "$@" && "$@"; }
+
+run sbt clean scct:test
+run open -a "Google Chrome" --args --allow-file-access-from-files "file://localhost/$(ls $(pwd)/target/scala-*/coverage-report/index.html)"

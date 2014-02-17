@@ -1,0 +1,12 @@
+[submodule "scct"]
+  path = scct
+  url = git://github.com/paulp/scct.git
+  branch = 0.3.x
+[submodule "sbt-scct"]
+  path = sbt-scct
+  url = git://github.com/paulp/sbt-scct.git
+  branch = 0.3.x
+[submodule "xsbt-coveralls-plugin"]
+  path = xsbt-coveralls-plugin
+  url = git://github.com/paulp/xsbt-coveralls-plugin.git
+  branch = 0.13
